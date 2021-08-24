@@ -40,12 +40,13 @@ body {
   padding: 10px 15px;
 
   overflow: hidden;
-  width: 400px;
+  width: 500px;
   border-width: 0;
   outline: none;
   border-radius: 2px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-
+  font-weight: bold;
+  font-family: "roboto", sans-serif;
   background-color: #f7d736;
 
   transition: background-color 0.3s;
@@ -117,6 +118,7 @@ body {
   flex-wrap: wrap;
   align-content: space-between;
   justify-content: center;
+  margin-top: 10px;
 
 }
 
@@ -126,8 +128,9 @@ body {
   height: 100px;
   border-radius: 4px;
   padding: 5px;
-  margin: 5px;
+  margin: 10px;
 }
+
 
 .card-title {
   font-family: 'Permanent Marker', cursive;
@@ -140,6 +143,75 @@ body {
   
 }
 
+
+.card-color-1 {
+  background-color: #ead3a7;
+}
+
+.card-color-2 {
+  background-color: #9de0f5;
+}
+
+.card-color-3 {
+  background-color: #ef89ba;
+}
+
+.card-color-4 {
+  background-color: #fae890;
+}
+
+.card-color-5 {
+  background-color: #abe9c1;
+}
+
+.card-rotation-1{
+  transform: rotate(0deg);
+}
+.card-rotation-2{
+  transform: rotate(1deg);
+}
+.card-rotation-3{
+  transform: rotate(2deg);
+}
+.card-rotation-4{
+  transform: rotate(3deg);
+}
+.card-rotation-5{
+  transform: rotate(4deg);
+}
+.card-rotation-6{
+  transform: rotate(5deg);
+}
+.card-rotation-7{
+  transform: rotate(-1deg);
+}
+.card-rotation-8{
+  transform: rotate(-2deg);
+}
+.card-rotation-9{
+  transform: rotate(-3deg);
+}
+.card-rotation-10{
+  transform: rotate(-4deg);
+}
+.card-rotation-11{
+  transform: rotate(-5deg);
+}
+.card-rotation-12{
+  transform: rotate(6deg);
+}
+.card-rotation-13{
+  transform: rotate(-6deg);
+}
+.card-rotation-14{
+  transform: rotate(9deg);
+}
+.card-rotation-15{
+  transform: rotate(0deg);
+}
+
+
+
 .form-card {
   display: flex;
   flex-direction: column;
@@ -147,14 +219,14 @@ body {
   margin: 20px;
   align-items: center;
   padding: 10px;
-  width: 400px;
+  width: 500px;
   background-color: white;
   border-radius: 2px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .form-card-title {
-  width: 400px;
+  width: 500px;
   outline: none;
   border-color: transparent;
   font-size: 20px;
@@ -162,7 +234,7 @@ body {
 }
 
 .autoresize {
-  width: 400px;
+  width: 500px;
   outline: none;
   border-color: transparent;
   font-family: 'Roboto', sans-serif;  
